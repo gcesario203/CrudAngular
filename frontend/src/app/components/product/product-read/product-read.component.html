@@ -1,4 +1,4 @@
-<div class="mat-elevation-z4">
+<div class="mat-elevation-z4" *ngIf="hasProd; else noProd">
     <table mat-table class="full-width-table" [dataSource]="products">
       <!-- Id Column -->
       <ng-container matColumnDef="id">
@@ -35,4 +35,6 @@
       <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
     </table>
   </div>
-  
+  <ng-template #noProd>
+    <h1>Sem produtos cadastrados</h1>
+  </ng-template>
