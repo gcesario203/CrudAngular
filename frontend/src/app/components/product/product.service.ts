@@ -28,4 +28,12 @@ export class ProductService {
   read():Observable<Product[]>{
     return this.httpClient.get<Product[]>(this.baseUrl)
   }
+
+  readById(id:string):Observable<Product>{
+    return this.httpClient.get<Product>(this.baseUrl+'/'+id)
+  }
+
+  update(product:Product):Observable<Product>{
+    return this.httpClient.put<Product>(this.baseUrl+"/"+product.id,product)
+  }
 }
