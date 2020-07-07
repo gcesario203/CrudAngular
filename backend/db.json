@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Metralhora alemã",
+      "price": 2.3
+    },
+    {
+      "name": "Teste dos cria",
+      "price": 124.29,
+      "id": 2
+    },
+    {
+      "name": "Teste dos cria",
+      "price": 124.29,
+      "id": 3
+    },
+    {
+      "name": "Maça",
+      "price": "2.00",
+      "id": 4
+    }
+  ]
+}
