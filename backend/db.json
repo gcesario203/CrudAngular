@@ -2,22 +2,22 @@
   "products": [
     {
       "id": 1,
-      "name": "Metralhora alemã",
-      "price": 2.3
+      "name": "Lapiseira",
+      "price": "2.32"
     },
     {
-      "name": "Teste dos cria",
+      "name": "Corrediça telescópica de 300 mm",
       "price": 124.29,
       "id": 2
     },
     {
-      "name": "Teste dos cria",
-      "price": 124.29,
+      "name": "Dobradiça Curva",
+      "price": "55.80",
       "id": 3
     },
     {
-      "name": "Maça",
-      "price": "2.00",
+      "name": "Dobradiça bang-bang",
+      "price": "120.35",
       "id": 4
     }
   ]
