@@ -36,4 +36,8 @@ export class ProductService {
   update(product:Product):Observable<Product>{
     return this.httpClient.put<Product>(this.baseUrl+"/"+product.id,product)
   }
+
+  delete(product:Product):Observable<Product>{
+    return this.httpClient.delete<Product>(this.baseUrl+"/"+product.id)
+  }
 }

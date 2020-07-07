@@ -1,24 +1,24 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Lapiseira",
-      "price": "2.32"
-    },
-    {
-      "name": "Corrediça telescópica de 300 mm",
+      "name": "Dobradiça curva",
       "price": 124.29,
       "id": 2
-    },
-    {
-      "name": "Dobradiça Curva",
-      "price": "55.80",
-      "id": 3
     },
     {
       "name": "Dobradiça bang-bang",
       "price": "120.35",
       "id": 4
+    },
+    {
+      "name": "Fechadura digital",
+      "price": "220.18",
+      "id": 5
+    },
+    {
+      "name": "Cola de contato tradicional",
+      "price": "22.90",
+      "id": 6
     }
   ]
 }
