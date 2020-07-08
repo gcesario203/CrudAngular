@@ -7,6 +7,12 @@
     display: flex;
     align-items: center;
     text-decoration: none;
+    color: black;
+    transition: 500ms;
+}
+
+.header a:hover{
+    color: rgb(138, 137, 137);
 }
 
 .header .logo{

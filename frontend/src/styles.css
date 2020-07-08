@@ -9,9 +9,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .msg-success{
     background: rgb(8, 185, 46);
-    color: white;
+    color: #ffffff;
 }
 .msg-error{
     background: rgb(194, 13, 28);
-    color: white;
+    color: #ffffff;
 }
